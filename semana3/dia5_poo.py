@@ -26,4 +26,3 @@ cuenta = CuentaBancaria("Sebas", 100, 50)
 cuenta.depositar(30)
 cuenta.retirar(20)
 print("Saldo actual:", cuenta.consultar_saldo())
-# cuenta.__saldo = 1000  # Esto no funciona, el saldo está encapsulado
